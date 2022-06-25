@@ -1,0 +1,28 @@
+^C:\PROJECTS\FLUTTER\DICODING\01. BELAJAR MEMBUAT APLIKASI FLUTTER UNTUK PEMULA\APP_ROOM_RENTAL\BUILD\WINDOWS\CMAKEFILES\216DDF84AC02F7D9442C0D6F2FC649BC\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\tools\flutter "PROJECT_DIR=C:\Projects\Flutter\Dicoding\01. Belajar Membuat Aplikasi Flutter untuk Pemula\app_room_rental" FLUTTER_ROOT=C:\tools\flutter "FLUTTER_EPHEMERAL_DIR=C:\Projects\Flutter\Dicoding\01. Belajar Membuat Aplikasi Flutter untuk Pemula\app_room_rental\windows\flutter\ephemeral" "PROJECT_DIR=C:\Projects\Flutter\Dicoding\01. Belajar Membuat Aplikasi Flutter untuk Pemula\app_room_rental" "FLUTTER_TARGET=C:\Projects\Flutter\Dicoding\01. Belajar Membuat Aplikasi Flutter untuk Pemula\app_room_rental\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Projects\Flutter\Dicoding\01. Belajar Membuat Aplikasi Flutter untuk Pemula\app_room_rental\.dart_tool\package_config.json" C:/tools/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROJECTS\FLUTTER\DICODING\01. BELAJAR MEMBUAT APLIKASI FLUTTER UNTUK PEMULA\APP_ROOM_RENTAL\BUILD\WINDOWS\CMAKEFILES\348547CA51880EB054A0EFEC86AC462E\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROJECTS\FLUTTER\DICODING\01. BELAJAR MEMBUAT APLIKASI FLUTTER UNTUK PEMULA\APP_ROOM_RENTAL\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Projects/Flutter/Dicoding/01. Belajar Membuat Aplikasi Flutter untuk Pemula/app_room_rental/windows" "-BC:/Projects/Flutter/Dicoding/01. Belajar Membuat Aplikasi Flutter untuk Pemula/app_room_rental/build/windows" --check-stamp-file "C:/Projects/Flutter/Dicoding/01. Belajar Membuat Aplikasi Flutter untuk Pemula/app_room_rental/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

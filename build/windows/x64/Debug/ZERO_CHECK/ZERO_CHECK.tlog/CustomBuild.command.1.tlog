@@ -1,0 +1,10 @@
+^C:\PROJECTS\FLUTTER\DICODING\01. BELAJAR MEMBUAT APLIKASI FLUTTER UNTUK PEMULA\APP_ROOM_RENTAL\BUILD\WINDOWS\CMAKEFILES\B83DE56497ACAE602B6A92F77F8FAC6E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Projects/Flutter/Dicoding/01. Belajar Membuat Aplikasi Flutter untuk Pemula/app_room_rental/windows" "-BC:/Projects/Flutter/Dicoding/01. Belajar Membuat Aplikasi Flutter untuk Pemula/app_room_rental/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Projects/Flutter/Dicoding/01. Belajar Membuat Aplikasi Flutter untuk Pemula/app_room_rental/build/windows/app_room_rental.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
